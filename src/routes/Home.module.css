@@ -1,0 +1,17 @@
+.textimage {
+    position: absolute;
+    right: 50%;
+    left: 20%;
+    bottom: 5%;
+    display: flex;
+  }
+.headtext {
+    position: relative;
+ }
+
+ .searchinput {
+  margin-top: 16px ;
+ }
+ .image {
+  transition:ease-in-out .3s;
+ }

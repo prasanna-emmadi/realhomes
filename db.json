@@ -1,0 +1,79 @@
+{
+  "properties": [
+    {
+      "address": "Teknologiantie 1, 90590 Oulu",
+      "city": "Oulu",
+      "yearOfConstruction": "2021",
+      "type": "detached-house",
+      "rooms": "3",
+      "description": "Detached house near to the city center. Worth investing money.",
+      "id": 1
+    },
+    {
+      "address": "Teknologiantie 2, 90590 Oulu",
+      "city": "Oulu",
+      "yearOfConstruction": "1990",
+      "type": "apartment",
+      "rooms": "3",
+      "description": "Good apartment, with big bed rooms and living room.",
+      "id": 2
+    },
+    {
+      "address": "Teknologiantie 3, 90590 Oulu",
+      "city": "Oulu",
+      "yearOfConstruction": "1990",
+      "type": "apartment",
+      "rooms": "3",
+      "description": "Good apartment, with big bed rooms and living room.",
+      "id": 3
+    },
+    {
+      "address": "Street Updated",
+      "city": "Oulu",
+      "yearOfConstruction": "1990",
+      "type": "apartment",
+      "rooms": "3",
+      "description": "Good apartment, with big bed rooms and living room.",
+      "id": 4
+    },
+    {
+      "address": "Street one",
+      "city": "Oulu",
+      "yearOfConstruction": "1990",
+      "type": "apartment",
+      "rooms": "3",
+      "description": "Good apartment, with big bed rooms and living room.",
+      "id": 5
+    },
+    {
+      "id": 6,
+      "address": "latest address",
+      "city": "Oulu",
+      "yearOfConstruction": 2020,
+      "type": "apartment",
+      "rooms": 2,
+      "description": "Latest address with some random description and information.",
+      "yearOfConst": "9999"
+    },
+    {
+      "id": 7,
+      "address": "latest address",
+      "city": "Oulu",
+      "yearOfConstruction": 2020,
+      "type": "apartment",
+      "rooms": 2,
+      "description": "Latest address with some random description and information.",
+      "yearOfConst": "9999"
+    },
+    {
+      "id": 8,
+      "address": "secnod Latest",
+      "city": "Oulue",
+      "yearOfConstruction": 2020,
+      "type": "apartment",
+      "rooms": 2,
+      "description": "sdfsf sfsafsafsfsa fsafsafsafsssafsafsafsafsafsafs",
+      "yearOfConst": "9999"
+    }
+  ]
+}

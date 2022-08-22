@@ -1,0 +1,10 @@
+.columns {
+    display:flex;
+    flex-direction: row;
+    padding-right: 5px;
+    margin-top: 3px;
+    justify-content: center;
+    margin-top: 3px;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
