@@ -22,7 +22,7 @@ export default function LeafletControlGeocoder(props) {
     // get the geocordinates of the address in the positionInfo
     // use the latitude and longitude to create a marker
     // and add it the map
-    positionInfos.foreach((positionInfo) => {
+    positionInfos.forEach((positionInfo) => {
       const address = positionInfo.address;
       if (address) {
         geocoder.geocode(address, (resultArray) => {

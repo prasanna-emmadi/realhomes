@@ -22,7 +22,8 @@ const Map = (props) => {
           });
         },
         (error) => {
-          alert(error);
+          console.error(error);
+          //alert(error);
         }
       );
     }
