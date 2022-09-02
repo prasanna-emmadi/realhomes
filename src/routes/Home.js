@@ -1,17 +1,8 @@
-import {
-  Box,
-  Image,
-  Text,
-  Grid,
-  GridItem,
-  Flex,
-  HStack,
-} from "@chakra-ui/react";
+import { Box, Image, Text, Flex, HStack } from "@chakra-ui/react";
 import { useContext } from "react";
 import MainImage from "../assets/MainImage.jpg";
 import BuyImage from "../assets/BuyImage.jpg";
 import SellImage from "../assets/SellImage.jpg";
-import styles from "./Home.module.css";
 import React from "react";
 import { Link } from "react-router-dom";
 import PropertyListing from "./PropertyListing";
@@ -71,7 +62,7 @@ const Home1 = () => {
   );
 };
 
-const Home = () => {
+/*const Home = () => {
   const { searchOptions } = useContext(DataContext);
 
   return (
@@ -149,5 +140,5 @@ const Home = () => {
       </GridItem>
     </Grid>
   );
-};
+};*/
 export default Home1;

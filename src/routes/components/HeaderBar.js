@@ -1,7 +1,8 @@
-import { Box, Flex, HStack, Spacer, Text } from "@chakra-ui/react";
+import { Box, Flex, HStack, Spacer, Text, Button } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
+import { useState } from "react";
 
-const CreateRoutes = ({ routeItems }) => {
+const CreateRoutes = ({ routeItems, routeElement }) => {
   return (
     <HStack spacing={4}>
       {routeItems.map((item, idx) => (
@@ -9,11 +10,24 @@ const CreateRoutes = ({ routeItems }) => {
           <Link to={item.href}>{item.label}</Link>
         </Box>
       ))}
+      {routeElement}
     </HStack>
   );
 };
 
-const HeaderBar = (props) => {
+const HeaderBar = () => {
+  const [admin, setAdmin] = useState(false);
+
+  const onAdminChange = (e) => {
+    setAdmin(!admin);
+  };
+
+  const adminButton = (
+    <Box>
+      <Button onClick={onAdminChange}>Admin</Button>
+    </Box>
+  );
+
   return (
     <Box>
       <Flex
@@ -31,8 +45,10 @@ const HeaderBar = (props) => {
           <Text>RealHomes</Text>
         </Box>
         <Spacer />
-        <CreateRoutes routeItems={NAV_ITEMS} />
-        {props.admin ? <CreateRoutes routeItems={ADMIN_ITEMS} /> : null}
+        <CreateRoutes routeItems={NAV_ITEMS} routeElement={adminButton} />
+        {admin ? (
+          <CreateRoutes routeItems={ADMIN_ITEMS} routeElement={null} />
+        ) : null}
       </Flex>
     </Box>
   );
