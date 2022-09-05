@@ -11,3 +11,12 @@
     - npm run db:start
   - Start react application
     - npm start
+
+## Technical stack
+
+- react-router is used for routing
+- Chakra ui is used for ui components
+- json server - is used as db server
+- axios - is used for rest api calls
+- leaflet - is used for the map functionality on the website
+- chakra-ui-autocomplete - for the autocomplete dropdown
