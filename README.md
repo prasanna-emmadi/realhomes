@@ -4,6 +4,8 @@
 
 ## Getting started
 
+- Install the packages
+  - npm install
 - To start the project
   - Start db
     - npm run db:start
