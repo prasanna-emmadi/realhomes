@@ -21,3 +21,14 @@
 - axios - is used for rest api calls
 - leaflet - is used for the map functionality on the website
 - chakra-ui-autocomplete - for the autocomplete dropdown
+
+## State management
+
+- React.useContext is used for the statemanagement
+
+  - React.useEffect is used for fetching the initial homes from the json server via rest api calls
+  - There are functions which wraps
+    - CRUD of local state
+    - CRUD of the db
+
+- React.useState is used for the local component state management
