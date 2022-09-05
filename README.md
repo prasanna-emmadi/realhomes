@@ -1,6 +1,7 @@
 # REAL HOMES
 
 - React application with json db as the db server.
+- Deployed app could be found here - https://csb-xc738x.vercel.app/
 
 ## Getting started
 
