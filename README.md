@@ -1,6 +1,6 @@
-# team-x
+# REAL HOMES
 
-
+- React application with json db as the db server.
 
 ## Getting started
 
