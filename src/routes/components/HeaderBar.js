@@ -6,7 +6,7 @@ const CreateRoutes = ({ routeItems, routeElement }) => {
   return (
     <HStack spacing={4}>
       {routeItems.map((item, idx) => (
-        <Box key={idx}>
+        <Box key={idx} data-testid={item.label}>
           <Link to={item.href}>{item.label}</Link>
         </Box>
       ))}
@@ -24,7 +24,9 @@ const HeaderBar = () => {
 
   const adminButton = (
     <Box>
-      <Button onClick={onAdminChange}>Admin</Button>
+      <Button onClick={onAdminChange} data-testid="Admin">
+        Admin
+      </Button>
     </Box>
   );
 
@@ -42,7 +44,7 @@ const HeaderBar = () => {
         align={"center"}
       >
         <Box>
-          <Text>RealHomes</Text>
+          <Text data-testid="title">RealHomes</Text>
         </Box>
         <Spacer />
         <CreateRoutes routeItems={NAV_ITEMS} routeElement={adminButton} />

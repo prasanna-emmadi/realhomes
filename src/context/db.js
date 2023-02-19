@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const url = "http://localhost:4000/properties";
+const url = "http://localhost:4002/properties";
 
 const data = {
   saveData: async (property) => {

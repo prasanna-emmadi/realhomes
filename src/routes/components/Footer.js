@@ -2,7 +2,7 @@ import { Box, Flex, Spacer, Text, VStack } from "@chakra-ui/react";
 
 const Footer = () => {
   return (
-    <footer>
+    <footer data-testid="footer">
       <Box backgroundColor={"#44444B"} color="white">
         <Flex>
           <VStack>

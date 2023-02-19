@@ -22,7 +22,7 @@ const Home = () => {
     >
       <Flex direction="column" justifyContent="center">
         <Box>
-          <Image src={MainImage} alt="Real Homes" />
+          <Image src={MainImage} alt="Real Homes" data-testid="MainImage" />
         </Box>
         <Box
           zIndex={10}
