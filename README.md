@@ -7,11 +7,13 @@
 
 - Install the packages
   - npm install
-- To start the project
+- To start the application
   - Start db
     - npm run db:start
   - Start react application
     - npm start
+- To test the application
+  - npm run cypress:open
 
 ## Technical stack
 
